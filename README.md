@@ -1,5 +1,6 @@
 # APP_SaludDigna
 App  que predice un enfermedad cardiovascular en base a maching learing 
+ !DESACRAGR LA VERSION MAS RECIENTE _V04¡
 
 1) Entorno virtual 
     
