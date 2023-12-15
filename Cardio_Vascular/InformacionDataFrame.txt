@@ -1,0 +1,58 @@
+patientid: Identificación del paciente
+
+age: Edad (20-68)
+
+gender: Género (1)Male (0)Female
+
+chestpain: Dolor de pecho (0-3)
+
+restingBP: Presión arterial en reposo (int)
+
+serumcholestrol: Colesterol sérico    (268-479)
+
+fastingbloodsugar: Nivel de azúcar en sangre en ayunas  
+														0: Indica que el nivel de azúcar en sangre en ayunas no es superior a 
+                                                        120 mg/dL.En otras palabras, la persona tiene un nivel de azúcar en sangre en ayunas normal.
+
+														1: Indica que el nivel de azúcar en sangre en ayunas es superior a 120 mg/dL. En este caso, la persona puede tener niveles de azúcar en sangre elevados, lo que a veces se asocia con la diabetes u otros problemas metabólicos.
+
+restingrelectro: Electrocardiograma en reposo 
+														0: Puede representar un resultado normal del electrocardiograma en reposo.
+
+														1: Podría indicar alguna anormalidad o cambio leve en el electrocardiograma en reposo. Esta categoría podría asociarse con ciertos hallazgos específicos, como alteraciones en la onda T o en el segmento ST.
+
+														2: Puede indicar la presencia de anormalidades más notables o significativas en el electrocardiograma en reposo. Esto podría incluir signos de enfermedad cardíaca u otros problemas cardiovasculares.
+
+
+													
+maxheartrate: Ritmo cardíaco máximo alcanzado    (95-186)
+
+
+exerciseangia: Angina inducida por ejercicio
+														0: Puede indicar la ausencia de angina inducida por el ejercicio. En otras palabras, la persona no experimenta dolor o molestias en el pecho durante el ejercicio.
+
+														1: Puede indicar la presencia de angina inducida por el ejercicio. En este caso, la persona puede experimentar dolor o molestias en el pecho durante el ejercicio físico.
+
+oldpeak: Depresión del segmento ST inducida por el ejercicio en comparación con el reposo (1.9  - 6.2 )
+
+
+slope: Pendiente del segmento ST durante el ejercicio
+														0: Podría indicar que la pendiente del segmento ST durante el ejercicio es aproximadamente la misma que en reposo, sin un cambio significativo.
+
+														1, 2: Valores más altos en este rango podrían indicar una pendiente positiva, lo que significa que hay un aumento gradual en el segmento ST durante el ejercicio.
+
+														3: Un valor de 3 podría indicar una pendiente positiva más pronunciada, sugiriendo un aumento significativo en el segmento ST durante el ejercicio.
+
+
+noofmajorvessels: Número de vasos principales coloreados por fluoroscopia
+
+														0: Puede indicar que no se observaron vasos principales coloreados por fluoroscopia, lo que podría sugerir una ausencia de obstrucciones o bloqueos significativos en los vasos principales del corazón.
+
+														1, 2, 3: Valores más altos en este rango indicarían que se observaron 1, 2 o 3 vasos principales coloreados por fluoroscopia, respectivamente. Esto podría sugerir la presencia de obstrucciones o bloqueos en esos vasos, lo que podría indicar problemas en la circulación sanguínea hacia el corazón.
+
+
+target: Objetivo (variable objetivo para predecir, posiblemente indicando la presencia o ausencia de enfermedad cardíaca)
+
+														0: Puede indicar la ausencia de enfermedad cardíaca. En otras palabras, la persona no tiene enfermedad cardíaca según la evaluación realizada.
+
+														1: Puede indicar la presencia de enfermedad cardíaca. En este caso, la persona ha sido diagnosticada o evaluada positivamente para enfermedad cardíaca.
